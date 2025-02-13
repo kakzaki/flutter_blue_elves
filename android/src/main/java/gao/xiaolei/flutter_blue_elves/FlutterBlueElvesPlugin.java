@@ -118,10 +118,10 @@ public class FlutterBlueElvesPlugin implements FlutterPlugin, MethodCallHandler,
     // them functionally equivalent. Only one of onAttachedToEngine or registerWith will be called
     // depending on the user's project. onAttachedToEngine or registerWith must both be defined
     // in the same class.
-    public static void registerWith(PluginRegistry.Registrar registrar) {
-        gao.xiaolei.flutter_blue_elves.FlutterBlueElvesPlugin instance=new gao.xiaolei.flutter_blue_elves.FlutterBlueElvesPlugin();
-        instance.stepUp(registrar.messenger(),registrar.context(),registrar.activity());
-    }
+//    public static void registerWith(PluginRegistry.Registrar registrar) {
+//        gao.xiaolei.flutter_blue_elves.FlutterBlueElvesPlugin instance=new gao.xiaolei.flutter_blue_elves.FlutterBlueElvesPlugin();
+//        instance.stepUp(registrar.messenger(),registrar.context(),registrar.activity());
+//    }
 
     @Override
     public void onMethodCall(@NonNull MethodCall call, @NonNull Result result) {
